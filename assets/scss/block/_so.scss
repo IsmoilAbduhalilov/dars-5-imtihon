@@ -1,0 +1,156 @@
+.so{
+.re{
+display: flex;
+gap: 189px;
+}
+.vee{
+margin-top: 70px;
+margin-left: 150px;
+}
+.bee{
+font-family: Merriweather;
+font-weight: 400;
+font-size: 35px;
+color: #121212;
+padding-bottom: 15px;
+}
+.list{
+padding: 16px 190px 16px 15px;
+border: none;
+}
+.list::placeholder{
+margin-left: 15px;
+}
+.sub{
+margin-left: -340px;
+background-color: #534B42;
+width: 143px;
+height: 50px;
+color: #FFFFFF;
+border: none;
+font-size: 17px;
+font-weight: 700;
+font-family: Karla;
+}
+.stay{
+font-family: Varta;
+font-weight: 400;
+font-size: 18px;
+color: #706458E5;
+padding-bottom: 10px;
+}
+.ou1{
+    color: #A06056;
+    font-family: Karla;
+    font-weight: 700;
+    font-size: 17px;
+    padding-bottom: 64px;
+    i{
+    padding-left: 12px;
+    }
+}
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.slider {
+    display: inline-block;
+    animation: 10s slide infinite linear;
+}
+
+.slider img {
+    margin: 0 41px;
+}
+
+.swiper {
+    overflow: hidden;
+    padding: 60px 0;
+    white-space: nowrap;
+
+}
+}
+
+
+
+
+.ins {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.ins-box {
+    display: flex;
+    gap: 15px;
+}
+
+.ins h1 {
+    font-family: Merriweather;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 89%;
+    letter-spacing: -0.01em;
+    color: #534b42;
+}
+
+.ins h6 {
+    font-family: Varta;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 139%;
+    color: #706458;
+}
+
+.ins p {
+    font-family: Varta;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 139%;
+    color: rgba(112, 100, 88, 0.9);
+    opacity: .5;
+    padding-top: 20px;
+}
+
+.ins-icon {
+    width: 45px;
+    height: 45px;
+    border: solid 2px #a06056;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.ins-icon i {
+    color: #a06056;
+    padding-top: 15px;
+}
+
+@media (max-width:1156px) {
+   .so .vee{
+    margin-left: 50px;
+    }
+}
+@media (max-width:1034px) {
+.so .re{
+    display: grid;
+    }
+    .ins{
+    display: block;
+    }
+    .ins-box{
+    display: none;
+    }
+    .ins p{
+    display: none;
+    }
+   .so .sub{
+   display: none;
+    }
+}

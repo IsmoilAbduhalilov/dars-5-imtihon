@@ -1,0 +1,52 @@
+@keyframes sleeve {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.sliderr {
+    display: inline-block;
+    animation: 10s sleeve infinite linear;
+}
+
+.sliderr img {
+    margin: 0 41px;
+}
+.swipper {
+    overflow: hidden;
+    padding: 60px 0;
+    white-space: nowrap;
+background-color: #F3EEE8;
+}
+
+
+.vbn{
+display: flex;
+gap: 30px;
+padding-top: 48px;
+padding-left: 150px;
+.text2{
+font-family: Varta;
+font-weight: 400;
+font-size: 18px;
+color: #706458E5;
+}
+.ne{
+font-family: Karla;
+font-weight: 700;
+font-size: 20px;
+color: #A06056;
+i{
+margin-left: 10px;
+}
+}
+}
+@media (max-width:1034px) {
+    .swipper{
+    margin-top: 250px;
+    }
+}

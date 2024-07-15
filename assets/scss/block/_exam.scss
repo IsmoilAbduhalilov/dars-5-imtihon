@@ -1,0 +1,309 @@
+.exam{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bom img {
+    width: 100%;
+
+    height: 900px;
+
+}
+.btnu{
+color:#706458;
+margin-left: 10px;
+font-family: "Varta", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 20px;
+line-height: 30px;
+padding-top: 50px;}
+
+.bol {
+    margin-left: 180px;
+
+}
+
+.sa {
+    display: flex;
+    align-items: center;
+    padding-top: 67px;
+
+}
+
+.ul {
+    display: flex;
+    gap: 24px;
+    padding-left: 20px;
+}
+
+.ul li a {
+    color: #706458;
+    font-family: "Varta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.ha {
+    padding-top: 110px;
+}
+
+.home {
+    font-family: "Varta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A06056;
+}
+
+.ele {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 70px;
+    color: #A06056;
+    padding-top: 50px;
+}
+
+.we {
+    font-family: "Varta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 30px;
+    color: #706458E5;
+    padding-top: 30px;
+
+}
+
+.uz {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 25px;
+    color: #A06056;
+
+}
+
+.barselons i {
+    padding-left: 20px;
+    font-size: 30px;
+    display: none;
+}
+
+.pas {
+    margin-top: 48px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #A06056;
+    color: #A06056;
+    padding-top: 15px;
+}
+
+.pas i {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:1400px) {
+    .bol {
+
+        margin-right: 10px;
+    }
+
+    .ul li a {
+        display: none;
+    }
+
+    .barselons i {
+        display: block;
+        color: white;
+        padding-left: 90px;
+    }
+
+}
+
+@media (max-width:1255px) {
+    .bom {
+        position: absolute;
+
+    }
+
+    .exam {
+        margin: 0 auto;
+    }
+
+    .bol {
+        position: relative;
+        z-index: 10;
+
+    }
+
+    .uz {
+        color: white;
+
+    }
+
+    .home {
+        color: white;
+        text-align: center;
+
+    }
+
+    .ele {
+        color: white;
+        text-align: center;
+    }
+
+    .we {
+        color: white;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .pas {
+
+        margin: 0 auto;
+
+
+        border: 1px solid #ffffff;
+        color: #ffffff;
+    }
+
+
+
+
+}
+
+@media (max-width:725px) {
+
+    .bom img {
+        width: 100%;
+        margin-top: -40px;
+    }
+
+    .bol {
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width:650px) {
+
+    .bom img {
+
+        width: 100%;
+
+
+        margin-top: -105px;
+        height: 900px;
+    }
+
+    .bol {
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width:650px) {
+
+    .bom img {
+
+        width: 100%;
+
+
+        margin-top: -165px;
+        height: 900px;
+    }
+
+    .bol {
+        margin: 0 auto;
+    }
+
+    .home {
+        font-family: "Varta", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 10px;
+        line-height: 16px;
+
+    }
+
+    .ele {
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        line-height: 50px;
+
+    }
+
+    .we {
+        font-family: "Varta", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 26px;
+
+    }
+
+    .pas {
+        display: none;
+    }
+
+    .uz {
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 34px;
+        line-height: 25px;
+
+
+    }
+
+}
+
+@media (max-width:550px) {
+    .bom img {
+
+        width: 100%;
+
+
+
+        margin-top: -200px;
+        height: 900px;
+    }
+
+    .bol {
+        margin: 0 auto;
+    }
+
+    .ha {
+        margin-top: -50px;
+    }
+
+.barselons {
+        margin-left: -50px;
+    }
+
+
+
+
+
+}
+
+
+.exam{
+    background-color: #F3EEE8;
+    }
